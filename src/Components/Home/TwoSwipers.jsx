@@ -46,7 +46,7 @@ const TwoSwipers = () => {
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-black/30">
                     <p className="text-white text-lg">Shop Women</p>
                     <h2 className="text-white text-3xl md:text-4xl font-bold mt-2">
-                      New Collection with Mahar
+                      New Collection
                     </h2>
                   </div>
                 </div>
