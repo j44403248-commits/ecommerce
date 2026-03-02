@@ -1,6 +1,7 @@
 import React from "react";
 import RegisterForm from "../Common/RegisterForm";
 import LoyaltyTiers from "../Loyaltyrewards/LoyaltyTiers";
+import Products from "../Loyaltyrewards/Products";
 
 const LoyaltyRewards = () => {
   return (
@@ -35,6 +36,7 @@ const LoyaltyRewards = () => {
       {/* Registration form section */}
       <RegisterForm />
       <LoyaltyTiers/>
+      <Products/>
     </div>
   );
 };

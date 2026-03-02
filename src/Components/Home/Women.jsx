@@ -4,6 +4,7 @@ import img2 from "../../assets/img2.webp";
 import img3 from "../../assets/img3.webp";
 import img4 from "../../assets/img4.webp";
 import ProductDetailModal from "../Common/ProductDetailModal";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -106,9 +107,12 @@ const Women = () => {
 
         {/* Center View All Button */}
         <div className="flex justify-center mt-8">
+        <Link to={"/women"}>
           <button className="h-10 w-40 rounded-3xl bg-black text-white hover:bg-black/60 transition">
             View All
+        
           </button>
+          </Link>
         </div>
 
       </div>

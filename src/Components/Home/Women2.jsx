@@ -4,6 +4,7 @@ import img3 from "../../assets/img3.webp";
 import img2 from "../../assets/img2.webp";
 import img6 from "../../assets/img6.webp";
 import ProductDetailModal from "../Common/ProductDetailModal";
+import { Link } from "react-router-dom";
 
 
 const categories = [
@@ -75,9 +76,11 @@ const Women2 = () => {
                 ))}
             </div>
             <div className="flex justify-center mt-8">
+              <Link to={"/men"}>
                 <button className="h-10 w-40 rounded-3xl bg-black text-white hover:bg-black/60 transition">
                     View All
                 </button>
+</Link>
             </div>
 
             {/* Product Detail Modal */}
